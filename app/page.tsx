@@ -101,7 +101,7 @@ export default function Portfolio() {
                 <div className="flex items-center justify-center">
                   <div className="relative">
                     <Image
-                      src="/placeholder.svg?height=400&width=400"
+                      src="/ProjectImages/Akash Avatar.png"
                       width={400}
                       height={400}
                       alt="Profile"
