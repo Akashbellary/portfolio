@@ -550,18 +550,17 @@ export default function Portfolio() {
                         </Button>
                       </div>
                     </div>
-                    <CardDescription>Mood-based movie recommendation using facial expression analysis</CardDescription>
+                    <CardDescription>Personalized query resolution using fine-tuned GPT-2 for barber-related questions.</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground mb-4">
-                      Innovative system that suggests movies based on user's current mood detected through facial
-                      expressions, making it easy to select the perfect movie for any moment.
+                      Smart assistant built by fine-tuning GPT-2 on 1000+ haircut queries, offering quick, conversational, and accurate answers tailored for a barber shop experience.
                     </p>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">Computer Vision</Badge>
-                      <Badge variant="outline">Machine Learning</Badge>
-                      <Badge variant="outline">OpenCV</Badge>
-                      <Badge variant="outline">Recommendation System</Badge>
+                      <Badge variant="outline">LLM Fine-Tuning</Badge>
+                      <Badge variant="outline">Natural Language Processing</Badge>
+                      <Badge variant="outline">GPT-2</Badge>
+                      <Badge variant="outline">Python</Badge>
                     </div>
                   </CardContent>
                 </Card>
@@ -587,17 +586,16 @@ export default function Portfolio() {
                         </Button>
                       </div>
                     </div>
-                    <CardDescription>Mood-based movie recommendation using facial expression analysis</CardDescription>
+                    <CardDescription>Intelligent movie suggestions using TF-IDF and cosine similarity.</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground mb-4">
-                      Innovative system that suggests movies based on user's current mood detected through facial
-                      expressions, making it easy to select the perfect movie for any moment.
+                       Simple yet powerful recommendation system that analyzes movie overviews to help users discover films similar to their favorites using vectorized content matching.
                     </p>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">Computer Vision</Badge>
+                      <Badge variant="outline">TF-IDF</Badge>
                       <Badge variant="outline">Machine Learning</Badge>
-                      <Badge variant="outline">OpenCV</Badge>
+                      <Badge variant="outline">Natural Language Processing</Badge>
                       <Badge variant="outline">Recommendation System</Badge>
                     </div>
                   </CardContent>
