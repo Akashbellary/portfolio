@@ -579,7 +579,7 @@ export default function Portfolio() {
                     <div className="flex items-center justify-between">
                       <CardTitle>Movie recommendation system</CardTitle>
                       <div className="flex space-x-2">
-                        <Button variant="ghost" size="sm" asChild>
+                        <Button variant="ghost" size="sm" asChild className="bg-[#ffdaf0]>
                           <Link href="https://github.com/Akashbellary/recommendmovie" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
