@@ -315,7 +315,7 @@ export default function Portfolio() {
                     <div className="flex items-center justify-between">
                       <CardTitle>FinMM-Edit: Financial Correction System</CardTitle>
                       <div className="flex space-x-2">
-                        <Button variant="ghost" size="sm" asChild>
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                           <Link href="https://github.com/Akashbellary" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
@@ -356,7 +356,7 @@ export default function Portfolio() {
                     <div className="flex items-center justify-between">
                       <CardTitle>Plant Disease Detection System</CardTitle>
                       <div className="flex space-x-2">
-                        <Button variant="ghost" size="sm" asChild>
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                           <Link href="https://github.com/Akashbellary" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
@@ -394,7 +394,7 @@ export default function Portfolio() {
                     <div className="flex items-center justify-between">
                       <CardTitle>AI Web Chatbot</CardTitle>
                       <div className="flex space-x-2">
-                        <Button variant="ghost" size="sm" asChild>
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                           <Link href="https://github.com" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
@@ -431,7 +431,7 @@ export default function Portfolio() {
                     <div className="flex items-center justify-between">
                       <CardTitle>3D Asset Store</CardTitle>
                       <div className="flex space-x-2">
-                        <Button variant="ghost" size="sm" asChild>
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                           <Link href="https://github.com" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
@@ -468,7 +468,7 @@ export default function Portfolio() {
                     <div className="flex items-center justify-between">
                       <CardTitle>Face Expression Based Movie Recommendation System</CardTitle>
                       <div className="flex space-x-2">
-                        <Button variant="ghost" size="sm" asChild>
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                           <Link href="https://github.com/Akashbellary/recommendmovie" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
@@ -505,7 +505,7 @@ export default function Portfolio() {
                     <div className="flex items-center justify-between">
                       <CardTitle>Data Science Portfolio</CardTitle>
                       <div className="flex space-x-2">
-                        <Button variant="ghost" size="sm" asChild>
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                           <Link href="https://github.com" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
@@ -543,7 +543,7 @@ export default function Portfolio() {
                     <div className="flex items-center justify-between">
                       <CardTitle>Fine-tuned LLM to Answer Customer Queries</CardTitle>
                       <div className="flex space-x-2">
-                        <Button variant="ghost" size="sm" asChild>
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                           <Link href="https://github.com" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
