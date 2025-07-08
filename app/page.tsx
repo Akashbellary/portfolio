@@ -491,7 +491,7 @@ export default function Portfolio() {
                   </CardContent></a>
                 </Card>
 
-                <Card><a href = 'https://google.com'>
+                <Card><a href = '#'>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
                       src="ProjectImages/Datascience.jpg"
