@@ -529,7 +529,7 @@ export default function Portfolio() {
                   </CardContent>
                   </a>
                 </Card>
-                <Card>
+                <Card><a href = 'https://github.com/Akashbellary/Finetuning-LLM'>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
                       src="/ProjectImages/Fine Tuning LLM GPT2.jpg"
@@ -544,7 +544,7 @@ export default function Portfolio() {
                       <CardTitle>Fine-tuned LLM to Answer Customer Queries</CardTitle>
                       <div className="flex space-x-2">
                         <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
-                          <Link href="https://github.com" target="_blank">
+                          <Link href="https://github.com/Akashbellary/Finetuning-LLM" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
                         </Button>
@@ -562,7 +562,7 @@ export default function Portfolio() {
                       <Badge variant="outline">GPT-2</Badge>
                       <Badge variant="outline">Python</Badge>
                     </div>
-                  </CardContent>
+                  </CardContent></a>
                 </Card>
 
                 <Card><a href = 'https://recommendmovie007.streamlit.app/'>
