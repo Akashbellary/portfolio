@@ -301,7 +301,7 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2">
-                <Card><a href='#'>
+                <Card><a href='https://www.jetir.org/papers/JETIR2506166.pdf'>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
                       src="/ProjectImages/FinMM.jpg"
@@ -342,7 +342,7 @@ export default function Portfolio() {
                   </a>
                 </Card>
 
-                <Card><a href='#'>
+                <Card><a href='https://plant-disease-detection-solution-recommendation.streamlit.app/'>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
                       src="ProjectImages/Plant disease detection system.jpg"
@@ -357,7 +357,7 @@ export default function Portfolio() {
                       <CardTitle>Plant Disease Detection System</CardTitle>
                       <div className="flex space-x-2">
                         <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
-                          <Link href="https://github.com/Akashbellary" target="_blank">
+                          <Link href="https://github.com/Akashbellary/plant-disease-detection-solution-recommendation" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
                         </Button>
@@ -417,7 +417,7 @@ export default function Portfolio() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card><a href='https://github.com/Akashbellary/Assets-store'>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
                       src="ProjectImages/3DMarket.jpg"
@@ -432,7 +432,7 @@ export default function Portfolio() {
                       <CardTitle>3D Asset Store</CardTitle>
                       <div className="flex space-x-2">
                         <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
-                          <Link href="https://github.com" target="_blank">
+                          <Link href="https://github.com/Akashbellary/Assets-store" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
                         </Button>
@@ -451,10 +451,10 @@ export default function Portfolio() {
                       <Badge variant="outline">Python</Badge>
                       <Badge variant="outline">CRUD</Badge>
                     </div>
-                  </CardContent>
+                  </CardContent></a>
                 </Card>
 
-                <Card>
+                <Card><a href='https://face-expression-based-movie-recommendation-system.streamlit.app/'>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
                       src="/ProjectImages/FEBMRS.jpg"
@@ -469,7 +469,7 @@ export default function Portfolio() {
                       <CardTitle>Face Expression Based Movie Recommendation System</CardTitle>
                       <div className="flex space-x-2">
                         <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
-                          <Link href="https://github.com/Akashbellary/recommendmovie" target="_blank">
+                          <Link href="https://github.com/Akashbellary/face_expression_based_movie_recommendation_system" target="_blank">
                             <Github className="h-4 w-4" />
                           </Link>
                         </Button>
@@ -488,7 +488,7 @@ export default function Portfolio() {
                       <Badge variant="outline">OpenCV</Badge>
                       <Badge variant="outline">Recommendation System</Badge>
                     </div>
-                  </CardContent>
+                  </CardContent></a>
                 </Card>
 
                 <Card><a href = 'https://google.com'>
