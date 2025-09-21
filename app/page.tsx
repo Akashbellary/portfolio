@@ -2,13 +2,16 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
-import { Github, Linkedin, Mail, Calendar, MapPin, Award, Code, Briefcase } from "lucide-react"
+import { Github, Linkedin, Mail, Calendar, MapPin, Award, Code, Briefcase, Menu, X } from "lucide-react"
+import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { ParticleBackground } from "@/components/particle-background"
 import { FloatingShapes } from "@/components/floating-shapes"
 
 export default function Portfolio() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-background relative particle-overlay">
       <ParticleBackground />
@@ -24,7 +27,8 @@ export default function Portfolio() {
                 <span className="font-bold text-xl">Portfolio</span>
               </Link>
             </div>
-            <nav className="flex items-center space-x-6 text-sm font-medium">
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
               <Link href="#home" className="transition-colors hover:text-foreground/80">
                 Home
               </Link>
@@ -41,7 +45,19 @@ export default function Portfolio() {
                 Contact
               </Link>
             </nav>
-            <div className="flex items-center space-x-2">
+            
+            {/* Mobile Menu Button */}
+            <Button
+              variant="ghost"
+              size="sm"
+              className="md:hidden"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              <Menu className="h-5 w-5" />
+            </Button>
+
+            {/* Social Links */}
+            <div className="hidden md:flex items-center space-x-2">
               <Button variant="ghost" size="sm" asChild>
                 <a href="mailto:akashbellary007@gmail.com">
                   <Mail className="h-4 w-4" />
@@ -59,14 +75,61 @@ export default function Portfolio() {
               </Button>
             </div>
           </div>
+
+          {/* Mobile Menu */}
+          <div className={`md:hidden fixed inset-0 z-50 transform ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
+            <div className="fixed inset-0 bg-background/80 backdrop-blur-sm" onClick={() => setMobileMenuOpen(false)} />
+            <nav className="fixed inset-y-0 left-0 w-3/4 max-w-sm bg-background p-6 shadow-lg">
+              <div className="flex items-center justify-between mb-8">
+                <span className="font-bold text-xl">Portfolio</span>
+                <Button variant="ghost" size="sm" onClick={() => setMobileMenuOpen(false)}>
+                  <X className="h-5 w-5" />
+                </Button>
+              </div>
+              <div className="flex flex-col space-y-4">
+                <Link href="#home" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>
+                  Home
+                </Link>
+                <Link href="#experience" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>
+                  Experience
+                </Link>
+                <Link href="#achievements" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>
+                  Achievements
+                </Link>
+                <Link href="#projects" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>
+                  Projects
+                </Link>
+                <Link href="#contact" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>
+                  Contact
+                </Link>
+                <div className="flex space-x-4 mt-4">
+                  <Button variant="ghost" size="sm" asChild>
+                    <a href="mailto:akashbellary007@gmail.com">
+                      <Mail className="h-4 w-4" />
+                    </a>
+                  </Button>
+                  <Button variant="ghost" size="sm" asChild>
+                    <Link href="https://github.com/Akashbellary" target="_blank">
+                      <Github className="h-4 w-4" />
+                    </Link>
+                  </Button>
+                  <Button variant="ghost" size="sm" asChild>
+                    <Link href="https://www.linkedin.com/in/akash-br-b86a94219/" target="_blank">
+                      <Linkedin className="h-4 w-4" />
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+            </nav>
+          </div>
         </header>
 
         <main>
           {/* Hero Section */}
           <section id="home" className="py-24 md:py-32">
-            <div className="container px-4 md:px-6">
-              <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-                <div className="flex flex-col justify-center space-y-4">
+            <div className="container px-4 md:px-6 max-w-7xl mx-auto">
+              <div className="grid gap-6 lg:grid-cols-2 lg:gap-8 items-center justify-items-center">
+                <div className="flex flex-col justify-center space-y-4 lg:pr-8">
                   <div className="space-y-2">
                     <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                       Hi, I'm Akash BR
