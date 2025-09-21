@@ -601,10 +601,178 @@ export default function Portfolio() {
                   </CardContent>
                   </a>
                 </Card>
+                
+                {/* New Projects */}
+                <Card>
+                  <div className="aspect-video overflow-hidden rounded-t-lg">
+                    <Image
+                      src="/placeholder.svg?height=200&width=400"
+                      width={400}
+                      height={200}
+                      alt="EmailFlow - AI Powered Email Management System"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <CardHeader>
+                    <div className="flex items-center justify-between">
+                      <CardTitle>EmailFlow - AI Powered Email Management System</CardTitle>
+                      <div className="flex space-x-2">
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
+                          <Link href="https://github.com/Akashbellary/MailManager-application" target="_blank">
+                            <Github className="h-4 w-4" />
+                          </Link>
+                        </Button>
+                      </div>
+                    </div>
+                    <CardDescription>
+                      Unified email dashboard with AI-powered classification, search, and insights.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      EmailFlow is a full-stack project showcasing backend, frontend, and AI integration. Built with Flask and MongoDB, it uses NVIDIA Build API models (Qwen, Gemma, DeepSeek) for smart email classification and search. The system provides a clean dashboard to manage emails, view patterns, and get quick stats — all in one place. Fully developed solo, it demonstrates skills across Python, AI, and frontend design.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="outline">Email Management</Badge>
+                      <Badge variant="outline">Flask</Badge>
+                      <Badge variant="outline">MongoDB</Badge>
+                      <Badge variant="outline">NVIDIA Build API</Badge>
+                      <Badge variant="outline">AI Integration</Badge>
+                      <Badge variant="outline">Full Stack Development</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <div className="aspect-video overflow-hidden rounded-t-lg">
+                    <Image
+                      src="/placeholder.svg?height=200&width=400"
+                      width={400}
+                      height={200}
+                      alt="Reddit Persona Generator"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <CardHeader>
+                    <div className="flex items-center justify-between">
+                      <CardTitle>Reddit Persona Generator</CardTitle>
+                      <div className="flex space-x-2">
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
+                          <Link href="https://github.com/Akashbellary/reddit_user_persona" target="_blank">
+                            <Github className="h-4 w-4" />
+                          </Link>
+                        </Button>
+                      </div>
+                    </div>
+                    <CardDescription>
+                      AI-powered psychological profiling of Reddit users using posts, comments, and metadata.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      A Flask web application that fetches Reddit user data (posts, comments, metadata) via PRAW, processes it with SentenceTransformers embeddings, and stores them in Pinecone for similarity search. NVIDIA's Llama model is then used to generate a detailed persona JSON (traits, interests, communication style). The app includes a clean web interface, debug outputs, and Tailwind CSS styling. Built as part of an ML internship assignment to showcase skills in NLP, vector databases, and AI integration.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="outline">Flask</Badge>
+                      <Badge variant="outline">Reddit API</Badge>
+                      <Badge variant="outline">SentenceTransformers</Badge>
+                      <Badge variant="outline">Pinecone</Badge>
+                      <Badge variant="outline">NVIDIA Llama</Badge>
+                      <Badge variant="outline">NLP</Badge>
+                      <Badge variant="outline">AI Integration</Badge>
+                      <Badge variant="outline">Full Stack Development</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <div className="aspect-video overflow-hidden rounded-t-lg">
+                    <Image
+                      src="/placeholder.svg?height=200&width=400"
+                      width={400}
+                      height={200}
+                      alt="Mosquito Sentinel - AI-Powered Mosquito Species Detection"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <CardHeader>
+                    <div className="flex items-center justify-between">
+                      <CardTitle>Mosquito Sentinel - AI-Powered Mosquito Species Detection</CardTitle>
+                      <div className="flex space-x-2">
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
+                          <Link href="https://github.com/Akashbellary/mosquito_species_detection_and_species_information" target="_blank">
+                            <Github className="h-4 w-4" />
+                          </Link>
+                        </Button>
+                      </div>
+                    </div>
+                    <CardDescription>
+                      Real-time mosquito species detection and disease risk insights using deep learning on wingbeat sounds.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Mosquito Sentinel is a Streamlit-based AI application that identifies 38 mosquito species from real-time audio input. Built with PyTorch and trained on the HumBugDB dataset with environmental noise augmentation, it delivers robust detection, species-level disease information, and tailored control measures. The system provides a clean user interface, runs in real-time on CPU, and sets the foundation for geolocation-based outbreak mapping and public health monitoring. Developed to tackle mosquito-borne diseases such as malaria, dengue, and Zika with accessible technology for communities, researchers, and health officials.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="outline">Deep Learning</Badge>
+                      <Badge variant="outline">Audio Classification</Badge>
+                      <Badge variant="outline">Streamlit</Badge>
+                      <Badge variant="outline">PyTorch</Badge>
+                      <Badge variant="outline">HumBugDB</Badge>
+                      <Badge variant="outline">ESC-50</Badge>
+                      <Badge variant="outline">Mosquito-Borne Diseases</Badge>
+                      <Badge variant="outline">Public Health AI</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <div className="aspect-video overflow-hidden rounded-t-lg">
+                    <Image
+                      src="/placeholder.svg?height=200&width=400"
+                      width={400}
+                      height={200}
+                      alt="CampaignIO – Influencer Discovery & Outreach"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <CardHeader>
+                    <div className="flex items-center justify-between">
+                      <CardTitle>CampaignIO – Influencer Discovery & Outreach</CardTitle>
+                      <div className="flex space-x-2">
+                        <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
+                          <Link href="https://github.com/Akashbellary/influencer_outreach_agent" target="_blank">
+                            <Github className="h-4 w-4" />
+                          </Link>
+                        </Button>
+                      </div>
+                    </div>
+                    <CardDescription>
+                      Full-stack platform for discovering Instagram creators from hashtags or product ideas and managing outreach in a CRM-like workspace.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      CampaignIO is a modern influencer discovery and outreach system built with Next.js (frontend), Flask (backend), Node.js + Puppeteer (async discovery worker), and MongoDB Atlas. It streams influencer recommendations in real-time, maintains search history, and offers a full workspace with Timeline, Notes, Events, Tasks, Deals, Campaigns, Messages, History, and Todo. The system is designed to feel fast and resilient — results appear incrementally while discovery continues in the background. Deployed via Docker on Render, it integrates Instagram Graph API and Google OAuth for seamless use.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="outline">Next.js</Badge>
+                      <Badge variant="outline">React</Badge>
+                      <Badge variant="outline">TypeScript</Badge>
+                      <Badge variant="outline">Flask</Badge>
+                      <Badge variant="outline">Node.js</Badge>
+                      <Badge variant="outline">Puppeteer</Badge>
+                      <Badge variant="outline">MongoDB Atlas</Badge>
+                      <Badge variant="outline">Full Stack Development</Badge>
+                      <Badge variant="outline">Influencer Marketing</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             </div>
           </section>
-
+          
           {/* Contact Section */}
           <section className="py-24" id='contact'>
             <div className="container px-4 md:px-6">
