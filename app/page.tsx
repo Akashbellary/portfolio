@@ -268,6 +268,32 @@ export default function Portfolio() {
               <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3">
                 <Card className="text-center">
                   <CardHeader>
+                    <Code className="mx-auto h-12 w-12 text-primary" />
+                    <CardTitle>Open Source Contributions</CardTitle>
+                    <CardDescription></CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Currently contributing to <a href="continue.dev">continue.dev</a>, a open source coding agent environment project. 
+                    </p>
+                  </CardContent>
+                </Card>
+                
+                <Card className="text-center">
+                  <CardHeader>
+                    <Code className="mx-auto h-12 w-12 text-primary" />
+                    <CardTitle>Hackathon Participations</CardTitle>
+                    <CardDescription></CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Particpated in 'Gen AI Hackathon by Rabbit AI' ,'BioTech Hackathon on DevPost' ,'Agent Development Hackathon by AshnaAI' and other hackathons.   
+                    </p>
+                  </CardContent>
+                </Card>
+                
+                <Card className="text-center">
+                  <CardHeader>
                     <Award className="mx-auto h-12 w-12 text-primary" />
                     <CardTitle>HackerRank Gold Badge</CardTitle>
                     <CardDescription>Python - 5 Star Rating</CardDescription>
@@ -349,6 +375,8 @@ export default function Portfolio() {
                     </p>
                   </CardContent>
                 </Card>
+              
+                
               </div>
             </div>
           </section>
