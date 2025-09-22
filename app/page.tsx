@@ -670,7 +670,7 @@ export default function Portfolio() {
                 <Card>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
-                      src="/placeholder.svg?height=200&width=400"
+                      src="/ProjectImages/MailManager.jpg"
                       width={400}
                       height={200}
                       alt="EmailFlow - AI Powered Email Management System"
@@ -710,7 +710,7 @@ export default function Portfolio() {
                 <Card>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
-                      src="/placeholder.svg?height=200&width=400"
+                      src="/ProjectImages/Reddit_Persona.jpg"
                       width={400}
                       height={200}
                       alt="Reddit Persona Generator"
@@ -752,7 +752,7 @@ export default function Portfolio() {
                 <Card>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
-                      src="/placeholder.svg?height=200&width=400"
+                      src="/ProjectImages/mosquito_species.jpg"
                       width={400}
                       height={200}
                       alt="Mosquito Sentinel - AI-Powered Mosquito Species Detection"
@@ -794,7 +794,7 @@ export default function Portfolio() {
                 <Card>
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
-                      src="/placeholder.svg?height=200&width=400"
+                      src="/ProjectImages/CampaignIO.gif"
                       width={400}
                       height={200}
                       alt="CampaignIO – Influencer Discovery & Outreach"
