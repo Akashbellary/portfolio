@@ -274,7 +274,7 @@ export default function Portfolio() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Currently contributing to <a href="continue.dev">continue.dev</a>, a open source coding agent environment project. 
+                      Currently contributing to <font face="black" color="black"><a href="https://continue.dev">continue.dev</a></font>, a open source coding agent environment project. 
                     </p>
                   </CardContent>
                 </Card>
