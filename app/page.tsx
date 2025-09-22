@@ -673,13 +673,13 @@ export default function Portfolio() {
                       src="/ProjectImages/MailManager.jpg"
                       width={400}
                       height={200}
-                      alt="EmailFlow - AI Powered Email Management System"
+                      alt="EmailTriageAI - AI Powered Email Management System"
                       className="object-cover w-full h-full"
                     />
                   </div>
                   <CardHeader>
                     <div className="flex items-center justify-between">
-                      <CardTitle>EmailFlow - AI Powered Email Management System</CardTitle>
+                      <CardTitle>EmailTriageAI - AI Powered Email Management System</CardTitle>
                       <div className="flex space-x-2">
                         <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                           <Link href="https://github.com/Akashbellary/MailManager-application" target="_blank">
@@ -694,7 +694,7 @@ export default function Portfolio() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground mb-4">
-                      EmailFlow is a full-stack project showcasing backend, frontend, and AI integration. Built with Flask and MongoDB, it uses NVIDIA Build API models (Qwen, Gemma, DeepSeek) for smart email classification and search. The system provides a clean dashboard to manage emails, view patterns, and get quick stats — all in one place. Fully developed solo, it demonstrates skills across Python, AI, and frontend design.
+                      EmailTriageAI is a full-stack project showcasing backend, frontend, and AI integration. Built with Flask and MongoDB, it uses NVIDIA Build API models (Qwen, Gemma, DeepSeek) for smart email classification and search. The system provides a clean dashboard to manage emails, view patterns, and get quick stats — all in one place. Fully developed solo, it demonstrates skills across Python, AI, and frontend design.
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <Badge variant="outline">Email Management</Badge>
