@@ -777,7 +777,7 @@ export default function Portfolio() {
                   </CardContent>
                 </Card>
 
-                <Card>
+                <Card><a href="https://mosquito-species-detection.streamlit.app/">
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
                       src="/ProjectImages/mosquito_species.jpg"
@@ -816,10 +816,10 @@ export default function Portfolio() {
                       <Badge variant="outline">Mosquito-Borne Diseases</Badge>
                       <Badge variant="outline">Public Health AI</Badge>
                     </div>
-                  </CardContent>
+                  </CardContent></a>
                 </Card>
 
-                <Card>
+                <Card><a href="https://campaignio.onrender.com/">
                   <div className="aspect-video overflow-hidden rounded-t-lg">
                     <Image
                       src="/ProjectImages/CampaignIO.gif"
@@ -859,7 +859,7 @@ export default function Portfolio() {
                       <Badge variant="outline">Full Stack Development</Badge>
                       <Badge variant="outline">Influencer Marketing</Badge>
                     </div>
-                  </CardContent>
+                  </CardContent></a>
                 </Card>
               </div>
             </div>
