@@ -9,6 +9,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ParticleBackground } from "@/components/particle-background"
 import { FloatingShapes } from "@/components/floating-shapes"
+import AIChatButton from "@/components/ai-chat-button"
 
 export default function Portfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -79,15 +80,20 @@ export default function Portfolio() {
 
           {/* Mobile Menu */}
           <div className={`md:hidden fixed inset-0 z-50 transform ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
-            <div className="fixed inset-0 bg-background/80 backdrop-blur-sm" onClick={() => setMobileMenuOpen(false)} />
-            <nav className="fixed inset-y-0 left-0 w-3/4 max-w-sm bg-background p-6 shadow-lg">
+            {/* Blurred glass background behind options */}
+            <div
+              className="fixed inset-0 bg-black/80 backdrop-blur-md"
+              style={{ WebkitBackdropFilter: 'blur(8px)', backdropFilter: 'blur(8px)' }}
+              onClick={() => setMobileMenuOpen(false)}
+            />
+            <nav className="fixed inset-y-0 left-0 w-3/4 max-w-sm bg-background/70 rounded-r-2xl shadow-2xl backdrop-blur-xl border-r border-white/20">
               <div className="flex items-center justify-between mb-8">
                 <span className="font-bold text-xl">Portfolio</span>
                 <Button variant="ghost" size="sm" onClick={() => setMobileMenuOpen(false)}>
                   <X className="h-5 w-5" />
                 </Button>
               </div>
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-4 bg-white rounded-xl p-4 shadow-2xl">
                 <Link href="#home" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>
                   Home
                 </Link>
@@ -136,8 +142,9 @@ export default function Portfolio() {
                       Hi, I'm Akash BR
                     </h1>
                     <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                      Machine Learning Engineer & Full Stack Developer passionate about AI, data science, and building
-                      intelligent systems. I specialize in Python, Django, and modern ML technologies.
+                        AI & Backend Specialist with advanced skills in machine learning, model training, and full-stack development. 
+                        Experienced in integrating AI into real-world products and building robust backend systems. 
+                        Currently open to new opportunities and collaborations.
                     </p>
                   </div>
                   <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -150,6 +157,7 @@ export default function Portfolio() {
                     <Button size="lg" variant="outline" asChild className="bg-[#ffdaf0] text-[#000000] hover:bg-[#f8ccdc] transition-colors">
                       <Link href="https://drive.google.com/file/d/16dZQq1gn6DBoS4FG0ajbX8eQcvoQyrIw/view?usp=sharing">Resume</Link>
                     </Button>
+                    <AIChatButton />
                   </div>
                   <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                     <div className="flex items-center space-x-1">
@@ -274,7 +282,7 @@ export default function Portfolio() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Currently contributing to <font face="black" color="black"><a href="https://continue.dev">continue.dev</a></font>, a open source coding agent environment project. 
+                      Currently contributing to <span className="font-bold text-black"><a href="https://continue.dev" target="_blank" rel="noopener noreferrer">continue.dev</a></span>, an open source coding agent environment project. 
                     </p>
                   </CardContent>
                 </Card>
