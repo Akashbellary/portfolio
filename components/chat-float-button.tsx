@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ChatFloatButton() {
   const handleClick = () => {
-    window.open("https://akash-chatbot.vercel.app/", "_blank");
+    window.open("https://akashbellary.me", "_blank");
   };
 
   return (
